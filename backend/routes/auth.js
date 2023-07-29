@@ -18,7 +18,7 @@ router.post(
     body("password", "enter valid password").isLength({ min: 5 }),
   ],
   async (req, res) => {
-    let success = false;
+    let success = false; /// for login message
     const error = validationResult(req);
     /// check whether the login field is empty or not
     if (!error.isEmpty()) {
