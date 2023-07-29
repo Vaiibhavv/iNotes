@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+i
+{
+  cursor: pointer;
+}
+
+.paddingTB60 {padding:80px 80px 0px 0px;}
+.gray-bg {background: #F1F1F1 !important;}
+.about-title h1 {color: #535353; font-size:45px;font-weight:600;}
+.about-title span {color: #587ae1; font-size:45px;font-weight:700;}
+.about-title h3 {color: #535353; font-size:23px;margin-bottom:24px;}
+.about-title p {color: hsl(0, 0%, 48%);line-height: 1.8;margin: 0 0 15px;}
+.about-paddingB {padding-bottom: 12px;}
+.about-img {padding-left: 57px;}
+
+/* Social Icons */
+
+
+
+.home
+{
+  
+  background:#F1F1F1;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}

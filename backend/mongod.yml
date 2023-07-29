@@ -1,0 +1,5 @@
+net:
+  bindIp: 127.0.0.1  # Replace with the IP address or hostname where MongoDB should listen
+  port: 27017
+
+  
