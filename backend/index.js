@@ -13,7 +13,7 @@ app.use('/api/auth',require("./routes/auth"))
 app.use('/api/notes',require("./routes/notes"))
 
 app.listen(PORT, () => {
-  console.log(`Example app listening at ${BASE_URL}:${PORT}`)
+  console.log(`Example app listening at ${BASE_URL}`)
 })
 
 
