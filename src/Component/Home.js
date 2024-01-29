@@ -11,7 +11,6 @@ export default function Home(props) {
   return (
     <> 
         <div className='home '>
-          
          {localStorage.getItem("token")==="undefined"?navigate("/login"):<div>
           <Notes/>
          </div>}
