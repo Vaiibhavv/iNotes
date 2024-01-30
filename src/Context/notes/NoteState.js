@@ -3,7 +3,7 @@ import NoteContext from "./noteContext";
 
 const NoteState=(props)=>
 {   
-    const host="http://localhost:5000"
+    const host="https://quicknotes-1faq.onrender.com"
     const initialNotes= [];
     const [notes, setNotes]= useState(initialNotes);
     const [loading, setLoading]=useState(false);

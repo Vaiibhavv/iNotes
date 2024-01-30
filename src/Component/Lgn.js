@@ -8,7 +8,7 @@
 //   // login form submission 
 //   const handleSubmit = async (e) => {
 //     e.preventDefault();
-//     const response = await fetch("http://localhost:5000/api/auth/loginuser", {
+//     const response = await fetch("https://quicknotes-1faq.onrender.com/api/auth/loginuser", {
 //       method: "POST", // *GET, POST, PUT, DELETE, etc.
 //       headers: {
 //         "Content-Type": "application/json",
@@ -94,7 +94,7 @@ function Lgn() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:5000/api/auth/loginuser", {
+      const response = await fetch("https://quicknotes-1faq.onrender.com/api/auth/loginuser", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

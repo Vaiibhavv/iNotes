@@ -11,7 +11,7 @@ function Sgp() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/api/auth/createuser", {
+    const response = await fetch("https://quicknotes-1faq.onrender.com/api/auth/createuser", {
       method: "POST", // *GET, POST, PUT, DELETE, etc.
       headers: {
         "Content-Type": "application/json",
@@ -27,6 +27,7 @@ function Sgp() {
 
     if (json.success) {
       localStorage.setItem("token", json.authToken);
+      localStorage.setItem('user',credenitial.name);
       navigate("/");
     } else {
       alert("User already found");
