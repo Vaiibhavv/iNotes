@@ -3,7 +3,6 @@ import { Link, useLocation } from "react-router-dom";
 import user from './user.png'
 import noteContext from "../Context/notes/noteContext";
 
-
 const Navbar = () => {
   const handleLogout = () => {
     localStorage.removeItem("token");
